@@ -1,0 +1,17 @@
+Nodejs adalah runtime environment untuk JS bersifat opensource dan cross-platform
+NodeJS menjalankan V8 Javascript Enggine (Inti dari Google Chrome)di luar browser
+
+Fitur Penting NodeJS:
+    > Asynchronous & Event-driven
+      Semua API dari NodeJS bersifat Asynchronous, artinya tidak memblokir proses lain
+      sembari menunggu proses lain selesai.
+    
+    > Very Fast
+      Eksekusi kode dengan NodeJS sangat cepat karna berjalan pada V8 Javascript Enggine
+
+    > Single Threaded but Higly Scalable
+      NodeJS mengguanakn model single Threaded dengan Event Looping.
+      membatu server untuk merespons secara Asynchronous
+
+NodeJS dirancang untuk Aplikasi dengan proses I/O yang sensitif seperti Network sever atau Backend API
+Node yang asynchronous dan single thread dirancang untuk memungkinkan implementasi server yang dapat menangani banyak request pada waktu yang sama

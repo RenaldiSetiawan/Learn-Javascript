@@ -1,0 +1,10 @@
+Membuat Project JavaScript
+
+kita akan membuat proyek menggunakan Node Package Manager (NPM)
+NPM digunakan untuk mengelola package tambahan untuk mempermudah kita mengembangkan aplikasi
+
+Lakukan Perintah npm init pada terminal
+Setelah mengisi seluruh pertanyaan yang diberikan, kita akan diminta untuk melihat dan memverifikasi informasi yang akan disimpan.
+Nilai tersebut akan tersimpan dalam berkas package.json
+
+Berkas tersebut digunakan untuk menyimpan informasi aplikasi yang kita buat. Untuk membuat berkas package.json

@@ -1,0 +1,33 @@
+Instalasi Node.js dengan NVM
+
+Agar dapat menjalankan JavaScript pada perangkat lokal, kita perlu menginstal Node.js
+NodeJS memiliki dua versi rilis Long Term Support
+    1. LTS         > versi tersebut mendapat dukungan dalam jangka waktu yang lama, sehingga lebih disarankan menggunakan versi ini
+    2. Current LTS > versi current berisi fitur-fitur baru yang dirilis untuk NodeJS
+
+Dua cara dalam memasang NodeJS 
+    1. Dengan dokumentasi yang diberikan Node.js pada halaman resminya
+    2. Menggunakan tool bernama Node Version Manager (NVM)
+
+cara yang direkomendasikan dalam memasang Node.js adalah dengan bantuan NVM
+Bisa mudah menaikkan atau menurunkan versi Node.js tanpa perlu mengulang proses instalasi
+
+Memasang Nodejs dengan NVM for Windows
+    1. unduh nvm-windows
+       https://github.com/coreybutler/nvm-windows/releases.
+    2. Unduh installer NVM (for Windows) dengan klik tautan untuk berkas nvm-setup.exe.
+    3. Setelah berkas installer diunduh, Lakukan proses instalasi secara default
+    4. Setelah proses instalasi selesai, bukalah Terminal/PowerShell/CMD dalam mode administrator.
+    5. Pastikan NVM berhasil terpasang dengan menggunakan perintah berikut
+       nvm -v
+    6. Setelah NVM berhasil terpasang, pasang Node.js. Cara memasang Node.js adalah dengan perintah berikut ini
+       nvm install 16 / nvm install (versi Node.js)
+       > Perintah tersebut akan memasang Node.js versi 16
+       > Nomor versi pada perintah tersebut bisa Anda ubah sesuai dengan versi yang diinginkan
+    7. Setelah NVM memasang Node.js, Anda bisa menggunakan Node.js dengan menggunakan perintah berikut
+       > nvm use 16
+    8. Untuk memastikan Node.js terpasang dengan baik, jalankan perintah berikut
+       node -v
+    9. Untuk pindah versi node, Anda cukup tulis perintah berikut ini
+       > nvm use (versi Node.js)
+    
