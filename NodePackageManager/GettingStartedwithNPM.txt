@@ -1,0 +1,13 @@
+Package manger tools yang membantu pengelolaan package pada proyek agar lebih mudah
+Package manager yang banyak digunakan NPM dan Yarn Package manager
+
+NPM standard package manager yang di sediakan node.js
+
+Untuk melihat daftar commadn pad NPM, jalankan perintah: npm help
+
+gunakan -h Jika ingin melihat pandauan penggunaan salah satu perintahnya.
+-h tidak hanya dapat digunakan pada perintah install saja, tetapi juga pada seluruh perintah lainnya yang ada pada NPM
+contoh: Jika iningin melihat detail cari install 
+        > npm install -h
+
+penjelasan lengkap mengenai seluruh perintah yang ada di NPM pada laman resmi berikut: https://docs.npmjs.com/cli/v7/commands

@@ -1,0 +1,10 @@
+Jika package berada pada objek dependencies, kita dapat menghapusnya menggunakan perintah
+    > npm uninstall <package-name>
+
+Jika package terdapat pada devDependencies, kita cukup menambahkan --save-dev di akhir perintahnya.
+    > npm uninstall <package-name> --save-dev
+
+Selain menghapus nilainya dari package.json, perintah tersebut juga akan menghapus semua berkas yang berhubungan dengan package lodash pada folder node_modules.
+
+Perintah uninstall juga memiliki beberapa alias, sehingga dapat lebih cepat dalam menuliskan perintahnya. Anda bisa melihat apa saja alias yang dapat digunakan dengan menjalankan perintah:
+    > npm uninstall -h

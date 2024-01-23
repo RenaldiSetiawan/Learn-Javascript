@@ -1,0 +1,32 @@
+Pastikan di dalam folder project terdapat berkas package.json, jika belum, jalankan perintah npm init pada project Anda
+
+ada dua jenis instalasi package
+    1. Local install: dipasang di dalam direktori atau folder yang sama dengan project kita
+                      Package ini akan diletakkan di dalam folder node_modules
+    2. Global Package: dipasang di satu tempat pada sistem perangkat kita (tergantung pengaturan pada saat instalasi node/npm)
+
+Untuk menginstall package secara lokal, dengan perintah: npm install <package-name>
+
+Beberapa contoh package yang perlu diinstal secara global, antara lain:
+    >   npm
+    >   nodemon
+    >   mocha
+
+Unutk menginstal package secara global, tambahkan parameter -g
+    >   npm install -g <package-name>
+
+Lodash package yang berisi banyak utilitas untuk memudahkan dalam menulis JS, kusunya dengan array, object, string. dll
+    >   npm install lodash
+
+ada dua tipe depedencies di package.json
+    1. depedencies    : merupakan objek yang menampung package yang kita gunakan untuk membuat aplikasi
+    2. devDepedencies : digunakan untuk package yang berkaitan hanya saat proses pengembangan aplikasi
+                        contohnya seperti package jest yang digunakan untuk testing
+
+Untuk memasang package sebagai devDependencies, kita bisa menambahkan parameter --save-dev
+    npm install <package-name> --save-dev
+    npm install jest --save-dev
+
+Di dalam project akan muncul berkas package-lock.json. Berkas ini secara otomatis dibuat oleh Node untuk menjelaskan susunan project dan package (suatu package bisa saja menggunakan package lainnya)
+
+File package-lock.json akan mendefinisikan secara spesifik mana versi yang akan digunakan
