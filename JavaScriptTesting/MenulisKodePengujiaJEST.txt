@@ -1,0 +1,23 @@
+// npm init membuat direktori package.json
+// npm install --save-dev jest > instalasi depedencies jest secara global untuk testing
+// tambahkan script untuk test di package.json
+/* 
+    {
+        "scripts": {
+            "test": "jest"
+        }
+    } 
+*/
+describe('pengujian olah aritmatika', () => {
+    test('#1 dua tambah dua adalah empat', () => {
+         expect(2+2).toBe(4);
+    });
+  
+    test('#2 dua kali tiga adalah enam', () => {
+         expect(2*3).toBe(6);
+    });
+ });
+
+// toBe(4) disebut dengan matcher, berisi nilai yang diharapkan dari sebuah perintah yang dilakukan sebelumnya
+// dalam jest sendiri terdapat berbagai matchers yang dapat digunakan
+// https://jestjs.io/docs/using-matchers.
