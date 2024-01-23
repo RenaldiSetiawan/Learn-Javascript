@@ -1,0 +1,3 @@
+// Asynschronous, kita bisa menjalankan proses yang berada di baris kedua tanpa harus menunggu kode pada baris pertama selesai di eksekusi
+// bisa melakukan lebih dari satu proses sekaligus dalam waktu yang bersamaan
+// Program asynchronous memungkinkan suatu proses berjalan sembari menunggu proses lainnya selesai.
